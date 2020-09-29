@@ -1,2 +1,2 @@
 # swg_prework
-prework for software guild bootcamp
+This is a repo for my work for my Intro to Web Development class at the Software Guild Bootcamp
