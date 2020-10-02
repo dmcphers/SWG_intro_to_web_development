@@ -7,23 +7,90 @@
 <html lang="en">
 <head>
     <title>Menu</title>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <style>
+        section {
+            background-color: #fbfbd0;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+            font-size: 1.5em;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e4c3ad;
+        }
+
+        nav {
+            margin-bottom: 25px;
+        }
+        nav a:visited {
+            color: #ccff99;
+        }
+
+        nav a:hover {
+            font-weight: bold;
+        }
+
+        nav a:active {
+            text-decoration: none;
+        }
+
+        nav a {
+            background-color: #5b7d87;
+            color: #ffffff;
+            padding: 8px;
+            border: thin solid #0d1f2d;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            margin-right: 12%;
+            margin-left: 12%;
+            width: 100px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Restaurant Name</h1>
+        <h1 style="font-family: 'Carter One', cursive">Restaurant Name</h1>
     </header>
 
     <nav>
         <hr />
-        <p><a href="index.html">Home</a></p>
-        <p><a href="menu.html">Menu</a></p>
-        <p><a href="contact.html">Contact</a></p>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
         <hr />
     </nav>
 
     <section>
         <table width="90%">
+            <caption>Entrees</caption>
             <tr>
                 <th>Burgers and Fries</th>
                 <th>Hot Dog and Chips</th>
@@ -45,21 +112,18 @@
                 <td>Served with garlic mashers</td>
             </tr>
             <tr>
-                <td>Served with our famous thick cut</td>
+                <td>Served with our famous thick cut french fries</td>
                 <td>Served with our house-made chips</td>
                 <td>$10.95</td>
             </tr>
             <tr>
-                <td>french fries</td>
                 <td>$7.95</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>$7.95</td>
-                <td></td>
                 <td></td>
             </tr>
         </table>
+        <br />
+        <br />
         <table width="90%">
             <tr>
                 <th>Tenderloin Sandwich and Chips</th>
@@ -74,35 +138,53 @@
             <tr>
                 <td>Plain or Sesame Seed Bun</td>
                 <td>Your choice - with or without cheese</td>
-                <td>Smoked Brisket on thick-cut</td>
+                <td>Smoked Brisket on thick-cut Texas Toast</td>
             </tr>
             <tr>
                 <td>Pickle, onion, tomato, and lettuce</td>
                 <td>Iceberg lettuce, tomatoes, peppers</td>
-                <td>Texas Toast</td>
+                <td>Cole Slaw</td>
             </tr>
             <tr>
                 <td>Served with our house-made chips</td>
                 <td>Thousand Island or Ranch</td>
-                <td>Cole Slaw</td>
+                <td>Served with our famous thick-cut french fries</td>
             </tr>
             <tr>
                 <td>$8.95</td>
                 <td>Dressing served with a dinner roll</td>
-                <td>Served with our famous thick-cut</td>
+                <td>$7.95</td>
             </tr>
             <tr>
                 <td></td>
                 <td>$6.95</td>
-                <td>french fries</td>
+                <td></td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <table>
+            <caption>Beverages</caption>
+            <tr>
+                <td>Root Beer</td>
+                <td>$3.00</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td>$7.95</td>
+                <td>Bottled Water</td>
+                <td>$1.25</td>
+            </tr>
+            <tr>
+                <td>Lemonade</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Iced Tea</td>
+                <td>$1.25</td>
             </tr>
         </table>
     </section>
+    <br />
+    <br />
 
     <footer>
         <hr />
