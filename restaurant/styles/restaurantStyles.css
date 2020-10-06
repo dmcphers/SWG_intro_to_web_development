@@ -1,4 +1,14 @@
-﻿header, footer {
+﻿header {
+    /*background-color: #5b7d87;*/
+    color: #5b7d87;
+    height: 200px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer {
     background-color: #5b7d87;
     color: #fef9ff;
     height: 100px;
@@ -28,11 +38,11 @@ nav a {
     color: #ffffff;
     padding: 8px;
     border: thin solid #0d1f2d;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    margin-right: 12%;
-    margin-left: 12%;
+    /*text-decoration: none;
+    text-align: center;*/
+    /*display: inline-block;*/
+    /*margin-right: 12%;
+    margin-left: 12%;*/
     width: 100px;
 }
 
